@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------------------------------------------------------------------------header */
+.header{
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.header .flex_container{
+  display: flex;
+  height: 7vh;
+  width: 69vw;
+  align-items: center;
+  left: 15.5vw;
+  position: relative;
+}
+
+.header .flex_container a{
+  padding: 0.5vw;
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .flex_container .hover:hover{
+  background-color: rgb(236, 41, 52);
+  color: white;
+  border-radius: 5px;
+}
+
+.header .flex_container div{
+  flex-grow: 6;
+}
+
+.header .flex_container img{
+  width: auto;
+  height: 6vh;
+}
+
+/*--------------------------------------------------------------------------------------------body */
+.body{
+  vertical-align: top;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body .flex_container{
+  display: flex;
+  height: auto;
+  width: 69vw;
+  align-items: center;
+  left: 15.5vw;
+  position: relative;
+  margin-top: 7vh;
+}
+
+.body .flex_container .c1l2{
+  width: 45vw;
+  padding-right: 10%;
+}
+
+.body .flex_container .c1l2 p{
+  margin: 0;
+  text-align: justify;
+}
+
+.body .flex_container .c1l1 h1{
+  margin: 0;
+  text-align: left;
+  padding-bottom: 4%;
+}
+
+/*-------------------------------------------------ofertas */
+.body .oferta{
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 30px 1px, rgba(0, 0, 0, 0.3) 0px 0px 16px -8px;
+  display: flex;
+  width: 69vw;
+  left: 15.5vw;
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.body .oferta h1{
+  width: 100%;
+  text-align: center;
+  margin: 1vh;
+}
+
+/*-------------------------------------------------ofertas descricao */
+.body .table_container{
+  display: flex;
+  height: auto;
+  width: 69vw;
+  left: 15.5vw;
+  position: relative;
+  border-spacing: 50px;
+  text-align: left;
+}
+
+
+
+
+
+.body .image{
+  width: 5vw;
+  height: auto;
+}
+
+.body .servicos{
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 30px 1px, rgba(0, 0, 0, 0.3) 0px 0px 16px -8px;
+  padding: 30px;
+  font-weight: 200;
+}

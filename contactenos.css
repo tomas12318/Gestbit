@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------------------------------------------------------------------------header */
+.header{
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.header .flex_container{
+  display: flex;
+  height: 7vh;
+  width: 69vw;
+  align-items: center;
+  left: 15.5vw;
+  position: relative;
+}
+
+.header .flex_container a{
+  padding: 0.5vw;
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .flex_container .hover:hover{
+  background-color: rgb(236, 41, 52);
+  color: white;
+  border-radius: 5px;
+}
+
+.header .flex_container div{
+  flex-grow: 6;
+}
+
+.header .flex_container img{
+  width: auto;
+  height: 6vh;
+}
+
+/*--------------------------------------------------------------------------------------------body */
+.body .flex_container{
+  display: flex;
+  height: 7vh;
+  width: 69vw;
+  align-items: left;
+  left: 15.5vw;
+  position: relative;
+}
+
+.body .table_container{
+  display: flex;
+  height: 7vh;
+  width: 69vw;
+  align-items: left;
+  left: 15.5vw;
+  position: relative;
+}
+
+#formulario{
+  background-color: rgb(250, 250, 250);
+}
+
+.body .esquerda{
+  float: left;
+}
+
+.body .direita{
+  float: right;
+}
